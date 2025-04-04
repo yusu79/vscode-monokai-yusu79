@@ -1,0 +1,2 @@
+# vscode-yusu79-theme
+自作拡張機能のシンタックスハイライト用に作成したMonokaiベースのテーマ
