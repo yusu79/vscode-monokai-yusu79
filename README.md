@@ -5,9 +5,10 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/yusu79.vscode-monokai-yusu79)
 
 
-[Here is the English version of the "README"](https://github.com/yusu79/yusu79.vscode-monokai-yusu79/blob/main/README.ja.md)
+[Here is the English version of the "README"](https://github.com/yusu79/yusu79.vscode-monokai-yusu79/blob/main/README.en.md)
 
-自作拡張機能のシンタックスハイライト用に作成したMonokaiベースのテーマ
+
+Visual Studio Code用に設計されたカスタムテーマで、Monokai配色をベースにしています。このテーマは特定のMarkdownプラグインをサポートし、コーディング体験を向上させます。
 
 
 
@@ -17,7 +18,7 @@
 - [対応しているシンタックスハイライト](#対応しているシンタックスハイライト)
 
 ## インストール
-VScodeのマーケットプレイスで「**Yusu79**」と入力してください｡
+VScodeのマーケットプレイスで「**Monokai Yusu79**」と入力してください｡
 
 <p align="center">
 <img src="images/setup.png" width="70%"/>
@@ -27,4 +28,25 @@ VScodeのマーケットプレイスで「**Yusu79**」と入力してくださ�
 ## 対応しているシンタックスハイライト
 以下のシンタックスハイライトに対応しています。
 
+| プラグイン                                                                                   | 入力                       |
+| -------------------------------------------------------------------------------------------- | -------------------------- |
+| [markdown-it-info](https://www.npmjs.com/package/markdown-it-info)                 | `:::note info タイトル`               |
+| [markdown-it-mojicolor](https://www.npmjs.com/package/markdown-it-mojicolor)                 | `%文字%{色}`               | 
 
+
+### markdown-it-info
+
+`:::note info タイトル`のように書くと、Infoボックスが生成されるプラグインです。
+
+各タイプに合わせて色を変更しました。
+
+
+![](./images/markdown-it-info.png)
+
+### markdown-it-mojicolor
+
+`%文字%{黄色}`とすることで、`<span style="color: #ffd900;">文字</span>`のように指定した色がレンダリングされるプラグインです。
+
+記号部分をオレンジにしました。
+
+![](./images/markdown-it-mojicolor.png)

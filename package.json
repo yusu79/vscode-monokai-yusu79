@@ -23,7 +23,7 @@
   "sponsor": {
     "url": "https://github.com/sponsors/yusu79"
   },
-  "icon": "images/icon.png",
+  "icon": "images/markdown-it-info.png",
   "private": true,
   "contributes": {
     "grammars": [
