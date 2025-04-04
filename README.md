@@ -5,7 +5,7 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/yusu79.vscode-monokai-yusu79)
 
 
-[Here is the English version of the "README"](https://github.com/yusu79/yusu79.vscode-monokai-yusu79/blob/main/README.en.md)
+[Here is the English version of the "README"](https://github.com/yusu79/vscode-monokai-yusu79/blob/main/README.en.md)
 
 
 Visual Studio Code用に設計されたカスタムテーマで、Monokai配色をベースにしています。このテーマは特定のMarkdownプラグインをサポートし、コーディング体験を向上させます。
