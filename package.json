@@ -1,0 +1,44 @@
+{
+  "name": "vscode-monokai-yusu79",
+  "displayName": "Monokai Yusu79",
+  "description": "自作拡張機能のシンタックスハイライト用に作成したMonokaiベースのテーマ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "yusu79",
+  "author": {
+    "name": "yusu79",
+    "email": "oss@yusu79.com",
+    "url": "https://github.com/yusu79"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusu79/vscode-monokai-yusu79"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/yusu79"
+  },
+  "icon": "images/icon.png",
+  "private": true,
+  "contributes": {
+    "grammars": [
+      {
+        "language": "markdown",
+        "scopeName": "source.markdown",
+        "path": "./syntaxes/monokai-yusu79-theme.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Monokai Yusu79",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-yusu79-color-theme.json"
+      }
+    ]
+  }
+}
